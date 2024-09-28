@@ -1,0 +1,91 @@
+[
+  {
+    "title": "Becoming Pro user",
+    "items": [
+      {
+        "title": "What features are unlocked?",
+        "text": "Every plan unlocks all features the app has.\nDepending on the presented offer, a plan might support one (iOS/iPadOS or macOS) or all platforms."
+      },
+      {
+        "title": "Do I have to upgrade separately on iOS/iPadOS and macOS devices?",
+        "text": "If a plan states that it is for all platforms, then you can use it on every device Usage supports (iOS/iPadOS/macOS). Otherwise, if a plan states it is for one platform, or does not state platform at all, assume it is only for the platform it is shown on (iOS/iPadOS or macOS)."
+      },
+      {
+        "title": "Is there any limit on the amount of devices?",
+        "text": "The app sets no limit.\nYou can reuse a plan across its supported platform(s) on all devices attached to the iCloud account."
+      },
+      {
+        "title": "Is there a plan for family sharing?",
+        "text": "No, not right now.\nI'm considering it for the future update. If you would prefer to have family sharing included, please do let me know."
+      },
+      {
+        "title": "Why do I see different plans and prices than before?",
+        "text": "Plans and prices are subject to change as I continuously run experiments."
+      },
+      {
+        "title": "I made a purchase before, how do I get my Pro plan again?",
+        "text": "On the purchase screen press the \"Restore purchases\" button."
+      }
+    ]
+  },
+  {
+    "title": "Menu Bar",
+    "items": [
+      {
+        "title": "How to reorder items?",
+        "text": "To reorder items in the system menu bar, press the command key and drag an item to the desired position.\nTo reorder elements within, open the Menu tab in the app, and drag an item to the desired position."
+      }
+    ],
+    "platforms": ["macos"]
+  },
+  {
+    "title": "Cloud sync",
+    "items": [
+      {
+        "title": "How quickly is the data synced?",
+        "text": "Normally, the sync occurs approximately once every ten seconds if there is any data to send or download. In some cases, it might be paused due to low battery, limited space in iCloud, etc.\nYou should not expect it to be real-time or near to it.\nMy advice is to enable cloud sync only for the most relevant data sources."
+      },
+      {
+        "title": "Can I rename a device?",
+        "text": "No, not right now, but I plan to look into this."
+      }
+    ],
+    "platforms": ["macos"]
+  },
+  {
+    "title": "Widgets",
+    "items": [
+      {
+        "title": "Why sometimes information is displayed with a delay?",
+        "text": "The refresh time of any widget (unless the reload button is tapped) is controlled by the system. The app only sets a preference for it, which in our case is once per minute.\nThe widgets by their purpose and design are not meant to be real-time and you naturally should not expect that.\nUsage app makes its best effort to show the most up-to-date information in every widget."
+      },
+      {
+        "title": "Why tapping the reload button does not update the displayed information?",
+        "text": "Tapping the reload button always fetches the latest stored information, and, if supported, refreshes the information not more often than once per minute."
+      },
+      {
+        "title": "Why do some widgets require the main app to be open?",
+        "text": "Currently, there are technical limitations to how some data is fetched, which makes it not possible to be refreshed from the limited widget's environment.",
+        "platforms": ["macos"]
+      }
+    ]
+  },
+  {
+    "title": "Helper",
+    "items": [
+      {
+        "title": "Why is it necessary?",
+        "text": "The apps on the Mac App Store are sandboxed, which means they cannot read certain system sensors.\nThe Helper app can fetch more system information and exchange it with the Usage app."
+      },
+      {
+        "title": "What does it enable?",
+        "text": "It enables monitoring of processor temperature, fans, graphic card, and processes."
+      },
+      {
+        "title": "I get an error when installing the Helper",
+        "text": "A common error when installing the Helper is wrong permissions to the directories where it installs. To fix that you need to open the system's Terminal app and run these commands one-by-one, and then try again.\n\n`whoami`\n`sudo chown WRITE_HERE_USERNAME_FROM_PREVIOUS_COMMAND ~/Library/LaunchAgents/`\n`sudo chown WRITE_HERE_USERNAME_FROM_PREVIOUS_COMMAND ~/Library/Application Support/`\n\nIf this does not solve it, please get in touch!"
+      }
+    ],
+    "platforms": ["macos"]
+  }
+]
