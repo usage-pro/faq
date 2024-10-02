@@ -6,7 +6,11 @@
     "items": [
       {
         "title": "What features are unlocked?",
-        "text": "Every plan unlocks all features the app has.\nDepending on the presented offer, a plan might support one (iOS/iPadOS or macOS) or all platforms."
+        "text": "Every plan unlocks all features the app has on the current device.\nDepending on the presented offer, a plan might support one (iOS/iPadOS or macOS) or all platforms."
+      },
+      {
+        "title": "Why should I pay?",
+        "text": "First and most by upgrading to Pro you gain full access to many of the app's features.\nThe app is continoulsy improved, extended with the new features, and optimized for better performance & efficiency.\nYour contribution supports further development of the app."
       },
       {
         "title": "Do I have to upgrade separately on iOS/iPadOS and macOS devices?",
@@ -14,7 +18,7 @@
       },
       {
         "title": "Is there any limit on the amount of devices?",
-        "text": "The app sets no limit.\nYou can reuse a plan across its supported platform(s) on all devices attached to the iCloud account."
+        "text": "There are none.\nYou can reuse a plan across its supported platform(s) on all devices attached to the iCloud account."
       },
       {
         "title": "Is there a plan for family sharing?",
@@ -38,6 +42,10 @@
       {
         "title": "How to reorder items?",
         "text": "To reorder items in the system menu bar, press the command key and drag an item to the desired position.\nTo reorder elements within, open the Menu tab in the app, and drag an item to the desired position."
+      },
+      {
+        "title": "Why is Menu enabled but its items are not visible?",
+        "text": "Make sure there is enough space in the system menu bar.\nOtherwise try re-enabling the Menu feature."
       }
     ]
   },
@@ -51,7 +59,7 @@
       },
       {
         "title": "Can I rename a device?",
-        "text": "No, not right now, but I plan to look into this."
+        "text": "Yes! Open Preferences tab, then in the iCloud sync section tap on the Options button (three dots) next to the device name, and click on the presented 'Rename' option."
       }
     ]
   },
@@ -71,6 +79,34 @@
         "title": "Why do some widgets require the main app to be open?",
         "text": "Currently, there are technical limitations to how some data is fetched, which makes it not possible to be refreshed from the limited widget's environment.",
         "platforms": ["macos"]
+      },
+      {
+        "title": "Why there is no Network Activity widget?",
+        "text": "Home Screen widgets and Live Activities on iOS/iPadOS do not have support for real-time updates required for live network connection monitoring.",
+        "platforms": ["ios"]
+      }
+    ]
+  },
+  {
+    "symbol": "slider.horizontal.3",
+    "title": "Preferences",
+    "items": [
+      {
+        "title": "How often is data refreshed?",
+        "text": "Each data is refreshed at its own refresh interval. To view current refresh interval and to change it, open the Usage tab, and press the preferences icon next to each data source."
+      },
+      {
+        "title": "Can I disable refresh for data source I'm not interested in?",
+        "text": "Yes. Open preferences for the data source and set its refresh rate to 'Off'."
+      },
+      {
+        "title": "Can I hide data source I'm not interested in?",
+        "text": "Yes. Open preferences for the data source and set its refresh rate to 'Off'."
+      },
+      {
+        "title": "How can I change temperature between Celsius and Fahrenheit?",
+        "text": "On the Usage tab, press the preferences icon next to Battery Charge or Processor Temperature and change Display Unit to the preferred one.",
+        "platforms": ["macos"]
       }
     ]
   },
@@ -88,8 +124,52 @@
         "text": "It enables monitoring of processor temperature, fans, graphic card, and processes."
       },
       {
+        "title": "I'm missing Processor Temperature monitoring",
+        "text": "Install [the Helper](https://usage.pro/mac/helper) to enable monitoring for Processor Temperature."
+      },
+      {
+        "title": "I'm missing Graphics monitoring",
+        "text": "Install [the Helper](https://usage.pro/mac/helper) to enable monitoring for Graphics."
+      },
+      {
+        "title": "I'm missing Fans monitoring",
+        "text": "Install [the Helper](https://usage.pro/mac/helper) to enable monitoring for Fans."
+      },
+      {
+        "title": "I'm missing Processes monitoring",
+        "text": "Install [the Helper](https://usage.pro/mac/helper) to enable monitoring for Processes."
+      },
+      {
         "title": "I get an error when installing the Helper",
         "text": "A common error when installing the Helper is wrong permissions to the directories where it installs. To fix that you need to open the system's Terminal app and run these commands one-by-one, and then try again.\n\n`whoami`\n`sudo chown WRITE_HERE_USERNAME_FROM_PREVIOUS_COMMAND ~/Library/LaunchAgents/`\n`sudo chown WRITE_HERE_USERNAME_FROM_PREVIOUS_COMMAND ~/Library/Application Support/`\n\nIf this does not solve it, please get in touch!"
+      },
+      {
+        "title": "How to uninstall the Helper?",
+        "text": "Open 'Library/Application Support/Usage' and double click the 'uninstall' file. It will do everything necessary to remove the Helper completely."
+      }
+    ]
+  },
+  {
+    "symbol": "lock.shield",
+    "title": "Privacy",
+    "items": [
+      {
+        "title": "Where is my data stored?",
+        "text": "Data is stored locally on the device, and in your private iCloud container if cloud sync is enabled."
+      },
+      {
+        "title": "Is there any personal identifying information tracked?",
+        "text": "There is no personal identifying information tracked or anyhow used by the app."
+      }
+    ]
+  },
+  {
+    "symbol": "list.bullet.rectangle.portrait",
+    "title": "Terms",
+    "items": [
+      {
+        "title": "Data Source",
+        "text": "Data Source is each metrics the app monitors, i.e. Battery, Disk, Memory, etc."
       }
     ]
   }
