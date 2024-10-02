@@ -1,5 +1,6 @@
 [
   {
+    "symbol": "questionmark.diamond",
     "title": "Becoming Pro user",
     "items": [
       {
@@ -29,6 +30,7 @@
     ]
   },
   {
+    "symbol": "questionmark.diamond",
     "title": "Menu Bar",
     "items": [
       {
@@ -39,6 +41,7 @@
     "platforms": ["macos"]
   },
   {
+    "symbol": "questionmark.diamond",
     "title": "Cloud sync",
     "items": [
       {
@@ -53,6 +56,7 @@
     "platforms": ["macos"]
   },
   {
+    "symbol": "questionmark.diamond",
     "title": "Widgets",
     "items": [
       {
@@ -71,6 +75,7 @@
     ]
   },
   {
+    "symbol": "questionmark.diamond",
     "title": "Helper",
     "items": [
       {
