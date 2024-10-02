@@ -1,7 +1,7 @@
 [
   {
     "symbol": "questionmark.diamond",
-    "title": "Becoming Pro user",
+    "title": "Becoming Pro",
     "items": [
       {
         "title": "What features are unlocked?",
@@ -31,7 +31,7 @@
   },
   {
     "symbol": "questionmark.diamond",
-    "title": "Menu Bar",
+    "title": "Menu",
     "items": [
       {
         "title": "How to reorder items?",
@@ -42,7 +42,7 @@
   },
   {
     "symbol": "questionmark.diamond",
-    "title": "Cloud sync",
+    "title": "Cloud Sync",
     "items": [
       {
         "title": "How quickly is the data synced?",
