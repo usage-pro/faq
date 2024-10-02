@@ -2,6 +2,7 @@
   {
     "symbol": "questionmark.diamond",
     "title": "Becoming Pro",
+    "configurations": ["appstore"],
     "items": [
       {
         "title": "What features are unlocked?",
@@ -32,13 +33,13 @@
   {
     "symbol": "questionmark.diamond",
     "title": "Menu",
+    "platforms": ["macos"],
     "items": [
       {
         "title": "How to reorder items?",
         "text": "To reorder items in the system menu bar, press the command key and drag an item to the desired position.\nTo reorder elements within, open the Menu tab in the app, and drag an item to the desired position."
       }
-    ],
-    "platforms": ["macos"]
+    ]
   },
   {
     "symbol": "questionmark.diamond",
@@ -52,8 +53,7 @@
         "title": "Can I rename a device?",
         "text": "No, not right now, but I plan to look into this."
       }
-    ],
-    "platforms": ["macos"]
+    ]
   },
   {
     "symbol": "questionmark.diamond",
@@ -77,6 +77,7 @@
   {
     "symbol": "questionmark.diamond",
     "title": "Helper",
+    "platforms": ["macos"],
     "items": [
       {
         "title": "Why is it necessary?",
@@ -90,7 +91,6 @@
         "title": "I get an error when installing the Helper",
         "text": "A common error when installing the Helper is wrong permissions to the directories where it installs. To fix that you need to open the system's Terminal app and run these commands one-by-one, and then try again.\n\n`whoami`\n`sudo chown WRITE_HERE_USERNAME_FROM_PREVIOUS_COMMAND ~/Library/LaunchAgents/`\n`sudo chown WRITE_HERE_USERNAME_FROM_PREVIOUS_COMMAND ~/Library/Application Support/`\n\nIf this does not solve it, please get in touch!"
       }
-    ],
-    "platforms": ["macos"]
+    ]
   }
 ]
