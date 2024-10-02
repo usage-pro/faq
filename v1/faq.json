@@ -1,7 +1,7 @@
 [
   {
-    "symbol": "questionmark.diamond",
-    "title": "Becoming Pro",
+    "symbol": "star",
+    "title": "Pro",
     "configurations": ["appstore"],
     "items": [
       {
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "symbol": "questionmark.diamond",
+    "symbol": "menubar.rectangle",
     "title": "Menu",
     "platforms": ["macos"],
     "items": [
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "symbol": "questionmark.diamond",
+    "symbol": "icloud",
     "title": "Cloud Sync",
     "items": [
       {
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "symbol": "questionmark.diamond",
+    "symbol": "rectangle.grid.1x2",
     "title": "Widgets",
     "items": [
       {
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "symbol": "questionmark.diamond",
+    "symbol": "plus.diamond",
     "title": "Helper",
     "platforms": ["macos"],
     "items": [
