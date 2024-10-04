@@ -10,7 +10,7 @@
       },
       {
         "title": "Why should I pay?",
-        "text": "First and most by upgrading to Pro you gain full access to many of the app's features.\nThe app is continoulsy improved, extended with the new features, and optimized for better performance & efficiency.\nYour contribution supports further development of the app."
+        "text": "First and most by upgrading to Pro you gain full access to many of the app's features.\nThe app is continoulsy improved, extended with the new features, and optimized for better performance & efficiency. Your contribution supports further development."
       },
       {
         "title": "Do I have to upgrade separately on iOS/iPadOS and macOS devices?",
@@ -76,11 +76,6 @@
         "text": "Tapping the reload button always fetches the latest stored information, and, if supported, refreshes the information not more often than once per minute."
       },
       {
-        "title": "Why do some widgets require the main app to be open?",
-        "text": "Currently, there are technical limitations to how some data is fetched, which makes it not possible to be refreshed from the limited widget's environment.",
-        "platforms": ["macos"]
-      },
-      {
         "title": "Why there is no Network Activity widget?",
         "text": "Home Screen widgets and Live Activities on iOS/iPadOS do not have support for real-time updates required for live network connection monitoring.",
         "platforms": ["ios"]
@@ -104,8 +99,8 @@
         "text": "Yes. Open preferences for the data source and set its refresh rate to 'Off'."
       },
       {
-        "title": "How can I change temperature between Celsius and Fahrenheit?",
-        "text": "On the Usage tab, press the preferences icon next to Battery Charge or Processor Temperature and change Display Unit to the preferred one.",
+        "title": "How can I change temperature unit between Celsius and Fahrenheit?",
+        "text": "On the Usage tab, press the preferences icon next to Battery Charge or Processor Temperature and change the Display Unit preference.",
         "platforms": ["macos"]
       }
     ]
@@ -165,7 +160,7 @@
   },
   {
     "symbol": "list.bullet.rectangle.portrait",
-    "title": "Terms",
+    "title": "Glossary",
     "items": [
       {
         "title": "Data Source",
